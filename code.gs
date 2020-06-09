@@ -2,14 +2,14 @@ function myFunction() {
   
   SpreadsheetApp.getUi()
      .alert('Running APICALL');
-  //APICALL("https://covid-19-data.p.rapidapi.com/country/code?format=json&code=it", ["x-rapidapi-host:covid-19-data.p.rapidapi.com", "x-rapidapi-key:758dfeea74msh500859a61312ea5p103492jsn2662315def68"])
+  APICALL("https://covid-19-data.p.rapidapi.com/country/code?format=json&code=it", ["x-rapidapi-host:covid-19-data.p.rapidapi.com", "x-rapidapi-key:758dfeea74msh500859a61312ea5p103492jsn2662315def68"])
   //APICALL("https://capable-hangout-272301.appspot.com/data/confirmed/country/india&us&canada/date/04-02-2020&04-03-2020&04-05-2020", [])
   
   //APICALL("https://capable-hangout-272301.appspot.com/data/death/province/date/04-01-2020",[])
   
   //APICALL("", ["x-rapidapi-host: aerisweather1.p.rapidapi.com","x-rapidapi-key: 758dfeea74msh500859a61312ea5p103492jsn2662315def68"])
 
-  APICALL("https://gplaystore.p.rapidapi.com/applicationDetails?lang=en&id=net.luxteam.sacal", ["x-rapidapi-host gplaystore.p.rapidapi.com","x-rapidapi-key 758dfeea74msh500859a61312ea5p103492jsn2662315def68"])
+  //APICALL("https://gplaystore.p.rapidapi.com/applicationDetails?lang=en&id=net.luxteam.sacal", ["x-rapidapi-host gplaystore.p.rapidapi.com","x-rapidapi-key 758dfeea74msh500859a61312ea5p103492jsn2662315def68"])
 }
 
 
